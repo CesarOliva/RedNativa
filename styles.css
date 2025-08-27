@@ -45,3 +45,9 @@ section.eleccion{
   bottom: 20px;
   right: 20px;
 }
+
+@media screen and (max-width: 639px) { 
+    section.main {
+        background-position:initial;
+    }
+}
