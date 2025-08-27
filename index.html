@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <!--Metaetiquetas-->
+    <meta charset="UTF-8">
+    <meta name="author" content="César Oliva">
+    <meta name="description" content="Red Nativa Comunicaciones - Traducción Simultanea"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="Imagenes/Favicon.png" />
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="100">
+    <meta property="og:image:height" content="100">
+    <title>Red Nativa Comunicaciones - Traducción simultanea</title>
+    <!--Scripts y links-->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://kit.fontawesome.com/17383348a8.js" crossorigin="anonymous"></script>    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="Imagenes/favicon.png" type="image/png" />
+</head>
+<body class="bg-[#EBEBEB]">
+    <section class="main items-center sm:items-start flex flex-col justify-center sm:pl-12 md:pl-24 md:pr-0 gap-y-3 text-white">
+        <h1 class="text-4xl text-center md:text-start font-semibold text-[#004F9F]">Red Nativa</h1>
+        <span class="text-4xl text-center md:text-start font-semibold text-[#FAA900]">COMUNICACIONES</span>
+        <h3 class="text-center sm:text-start text-xl md:text-2xl max-w-128 leading-relaxed">Traducción simultánea profesional para tus eventos internacionales</h3>
+        <button class="bg-[#004F9F] hover:bg-[#FAA900] w-32 py-1 rounded-lg text-white text-xl"><a href="#" target="_blank">Contacto</a></button>
+    </section>
+
+    <section class="hero bg-white text-black w-full flex justify-center md:py-20 py-12">
+        <div class="w-[80%] md:w-[70%] flex items-center justify-center flex-col md:flex-row">
+            <div class=" right w-full md:w-[50%] md:pr-8 flex md:justify-start justify-center">
+                <img src="Imagenes/logo.png" alt="Red Nativa Comunicaciones" class="mb-8 md:mb-0">
+            </div>
+            <div class="left w-full md:w-[50%] gap-y-4">
+                <h2 class="font-semibold text-3xl mb-1 text-center md:text-left text-[#004F9F]">Red Nativa <br>Comunicaciones</h2>
+                <p class="text-xl leading-relaxed text-center md:text-left">Somos especialistas en la interpretación simultánea de eventos, conferencias, talleres, seminarios y cualquier tipo de reunión a nivel internacional.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="quienes-somos bg-[#4992CE] w-full flex justify-center items-center flex-col pt-6 pb-12 md:pb-16">
+        <h3 class="text-white font-semibold mb-8 text-3xl md:text-4xl">Sobre nosotros</h3>
+            
+        <div class="w-[80%] md:w-[70%] flex items-center justify-center flex-col md:flex-row">
+            <div class="order-1 md:order-0 left w-full md:w-[50%] gap-y-4">
+                <p class="text-[18px] text-white leading-relaxed text-center md:text-left">Ofrecemos el servicio de Traducción simultanea, Traducción Pausada 
+                y Traducción de textos para pequeños y grandes eventos internacionales dentro y fuera de la ciudad de México. Contamos con el más 
+                amplio equipo de profesionales para la traducción de documentos en varios idiomas como español, inglés, alemán, chino, portugués, etc. 
+                <br>También contamos con el servicio de renta y venta de equipo como los receptores para traducción simultánea y equipo audiovisual.</p>
+            </div>
+            <div class="order-0 md:order-1 right w-full lg:w-[50%] flex mb-8 md:mb-0 px-8 justify-center">
+                <img src="Imagenes/speaker.png" alt="Red Nativa - Servicio de traducción simultanea">
+            </div>
+        </div>
+    </section>
+
+    <section class="contacto w-full flex justify-center my-12 md:my-16">
+        <div class="formulario bg-white w-[90%] md:w-[70%] lg:w-[50%] rounded-3xl">
+            <form class="flex flex-col p-12 md:p-16">
+                <h2 class="text-center text-3xl mb-8">¿Tienes un evento? Contactanos</h2>
+
+                <label for="name">Nombre:</label>
+                <input class="bg-[#EBEBEB] p-2 my-2 rounded-lg" type="text" name="Nombre" id="name" placeholder="Nombre">
+                
+                <label for="mail">Correo:</label>
+                <input class="bg-[#EBEBEB] p-2 my-2 rounded-lg" type="email" name="Correo" id="email" placeholder="Correo">
+                
+                <label for="Telefono">Teléfono:</label>
+                <input class="bg-[#EBEBEB] p-2 my-2 rounded-lg" type="tel" name="Telefono" id="phone" placeholder="Teléfono">
+                
+                <label class="mb-1">Método de Contacto:</label>
+                <div class="radios mb-2" id="radios">
+                    <div class="radio-form mb-1">
+                        <input type="radio" name="Contacto" id="telefono" value="Télefono">
+                        <label class="ml-1" for="telefono">Télefono</label>
+                    </div>
+
+                    <div class="radio-form">
+                        <input type="radio" name="Contacto" id="correo" value="Correo">
+                        <label class="ml-1" for="correo">Correo</label>
+                    </div>
+                </div>
+
+                <label for="message" class="mensaje">Mensaje:</label>
+                <textarea class="bg-[#EBEBEB] p-2 my-2 rounded-lg" name="Mensaje" id="message" cols="30" rows="5" placeholder="Mensaje"></textarea>
+                <div class="enviar w-full flex justify-center mt-4">
+                    <input class="bg-[#FF0000] hover:bg-[#252D75]  w-32 py-1 rounded-lg text-white text-xl" type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="w-full bg-[#191919] py-8 md:py-12 text-white flex justify-center">
+        <div class="w-[100%] md:w-[90%] lg:w-[80%] flex flex-wrap md:flex-nowrap">
+            <div class="order-1 md:order-0 w-full lg:w-[33%] flex justify-center text-center mb-8 md:justify-start md:text-left md:mb-0">
+                <p class="text-[16px] md:text-[18px]">
+                    Emilio De León S/N <br>
+                    Colonia Ejido Cadereyta <br>
+                    C.P 67485 <br>
+                    <br>
+                    Cadereyta Jiménez <br>
+                    Nuevo León, México
+                </p>
+            </div>
+
+            <div class="order-0 md:order-1 w-full lg:w-[33%] text-center text-[16px] md:text-[18px] mb-8 md:mb-0">
+                <p>© 2025 Red Nativa Comunicaciones</p>
+
+                <div class="text-[35px] my-4 flex justify-center">
+                    <div class="w-14 h-14 mx-2 flex justify-center items-center rounded-[50%] bg-[#25D366]">
+                        <a href="#" target="_blank">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+                    <div class="w-14 h-14  mx-2 flex justify-center items-center rounded-[50%] bg-[#3b5998]">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                </div>
+
+                <div class="enlaces flex flex-col gap-y-2">
+                    <a class="hover:text-[#3b5998]" href="mailto:eliezer2012@gmail.com">eliezer2012@gmail.com</a>
+                </div>
+            </div>
+
+            <div class="order-2 w-full lg:w-[33%]">
+                <p class="text-[16px] md:text-[18px] text-center md:text-right">
+                    HORARIO <br>
+                    Lunes a Viernes de 8:00am - 6:00pm <br>
+                    Sábados de 8:00am - 1:00pm 
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="wpp">
+        <a href="https://api.whatsapp.com/send?phone=528281210290" target="_blank">
+            <img src="Imagenes/WhatsApp.png" alt="Contactanos" class="w-16 md:w-18">
+        </a>
+    </div>
+</body>
+</html>

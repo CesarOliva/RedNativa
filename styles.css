@@ -1,0 +1,32 @@
+* {
+  font-family: "Poppins";
+}
+
+@font-face {
+  font-family: 'MiFuentePersonalizada';
+  src: url('ruta/a/tu/fuente.woff2') format('woff2'),
+       url('ruta/a/tu/fuente.woff') format('woff');
+  font-display: swap;
+}
+
+li.active a {
+  border-bottom: 2px solid red;
+}
+
+section.main {
+  background-image: url("Imagenes/header2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+section.hero {
+  background-image: url("/Imagenes/background.png");
+}
+
+.wpp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
