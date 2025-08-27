@@ -3,10 +3,8 @@
 }
 
 @font-face {
-  font-family: 'MiFuentePersonalizada';
-  src: url('ruta/a/tu/fuente.woff2') format('woff2'),
-       url('ruta/a/tu/fuente.woff') format('woff');
-  font-display: swap;
+  font-family: 'Museo';
+  src: url('Museo700-Regular.otf');
 }
 
 li.active a {
@@ -21,8 +19,25 @@ section.main {
   height: 100vh;
 }
 
+section.main h1{
+    font-family: 'Museo';
+}
+
+section.main span{
+    line-height: 0;
+    margin-bottom: 5px;
+}
+
 section.hero {
-  background-image: url("/Imagenes/background.png");
+  background-image: url("Imagenes/background.png");
+}
+
+section.hero h2{
+    font-family: 'Museo';
+}
+
+section.eleccion{
+    background-image: url('Imagenes/background.png');
 }
 
 .wpp {
